@@ -1,0 +1,85 @@
+:root {
+  --accent-color: #2196F3;
+  --main-color: #212121;
+  --add-color: #757575;
+  --add-white: #FFFFFF;
+  --main-bg-color: #2F303A;
+}
+body {
+  font-family: Roboto;}
+.logo{
+  font-family: Raleway;
+font-size: 26px;
+color:var(--accent-color);
+letter-spacing: 0.78px;
+}
+.nav-link {
+  font-family: Roboto;
+font-size: 14px;
+color: (--main-color);
+text-decoration: none;
+letter-spacing: 0.28px;
+}
+.contact-link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color:  var(--add-color);
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+.hero {
+  color: white;
+  text-align: center;
+font-family: Roboto;
+font-size: 44px;
+
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+.hero-btn {
+  color: white;
+  text-align: center;
+font-family: Roboto;
+font-size: 16px;
+
+letter-spacing: 0.96px;
+}
+.advantages-list-title {
+  color: #212121;
+  text-transform: capitalize;
+  font-family: Roboto;
+font-size: 14px;
+
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.advantages-list-text {
+  font-family: Roboto;
+font-size: 14px;
+
+letter-spacing: 0.42px;
+}
+.work-title {
+  color: #212121;
+  text-align: center;
+font-family: Roboto;
+font-size: 36px;
+
+letter-spacing: 1.08px;
+}
+.worker-list {
+  text-align: center;
+font-family: Roboto;
+font-size: 16px;
+
+letter-spacing: 0.48px;
+}
+.advantages-list-title {
+ color: #212121;
+ text-transform: lowercase;
+}
+.advantages-list-text {
+  color: #757575;
+}
