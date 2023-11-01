@@ -33,7 +33,7 @@ letter-spacing: 0.28px;
   text-align: center;
 font-family: Roboto;
 font-size: 44px;
-
+background-color: #212121;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
@@ -42,7 +42,7 @@ text-transform: uppercase;
   text-align: center;
 font-family: Roboto;
 font-size: 16px;
-
+background-color: #212121;
 letter-spacing: 0.96px;
 }
 .advantages-list-title {
@@ -82,4 +82,12 @@ letter-spacing: 0.48px;
 }
 .advantages-list-text {
   color: #757575;
+}
+.hero-container {
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+.work-item-img {
+  margin: 0 auto;
+  padding: 15px 20px;
 }
