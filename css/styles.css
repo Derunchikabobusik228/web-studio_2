@@ -7,6 +7,10 @@
 }
 body {
   font-family: Roboto;}
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 .logo{
   font-family: Raleway;
 font-size: 26px;
@@ -83,11 +87,18 @@ letter-spacing: 0.48px;
 .advantages-list-text {
   color: #757575;
 }
-.hero-container {
-  margin: 0 auto;
-  padding: 15px 20px;
+.work-name {
+  color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
 }
-.work-item-img {
+.container {
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 0 15px;
 }
