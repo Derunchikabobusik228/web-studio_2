@@ -33,6 +33,8 @@ letter-spacing: 0.28px;
   text-decoration: none;
 }
 .hero {
+  padding-top: 200px;
+padding-bottom: 200px;
   color: white;
   text-align: center;
 font-family: Roboto;
@@ -42,6 +44,8 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .hero-btn {
+  padding-top: 150px;
+padding-bottom: 150px;
   color: white;
   text-align: center;
 font-family: Roboto;
@@ -50,6 +54,8 @@ background-color: #212121;
 letter-spacing: 0.96px;
 }
 .advantages-list-title {
+  padding-top: 200px;
+padding-bottom: 200px;
   color: #212121;
   text-transform: capitalize;
   font-family: Roboto;
@@ -62,10 +68,13 @@ text-transform: uppercase;
 .advantages-list-text {
   font-family: Roboto;
 font-size: 14px;
-
+padding-top: 200px;
+padding-bottom: 200px;
 letter-spacing: 0.42px;
 }
 .work-title {
+  padding-top: 200px;
+padding-bottom: 200px;
   color: #212121;
   text-align: center;
 font-family: Roboto;
@@ -74,6 +83,8 @@ font-size: 36px;
 letter-spacing: 1.08px;
 }
 .worker-list {
+  padding-top: 200px;
+padding-bottom: 200px;
   text-align: center;
 font-family: Roboto;
 font-size: 16px;
@@ -86,10 +97,13 @@ letter-spacing: 0.48px;
 }
 .advantages-list-text {
   color: #757575;
+  padding-top: 200px;
+padding-bottom: 200px;
 }
 .work-name {
   color: #212121;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
@@ -101,4 +115,6 @@ letter-spacing: 0.48px;
 .container {
   margin: 0 auto;
   padding: 0 15px;
+  padding-top: 200px;
+padding-bottom: 200px;
 }
