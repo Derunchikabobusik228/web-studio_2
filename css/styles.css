@@ -11,6 +11,24 @@ body {
     margin: 0 auto;
     padding: 0 15px;
   }
+.nav-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.nav-list-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.header-list-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .logo{
   font-family: Raleway;
 font-size: 26px;
@@ -34,31 +52,38 @@ letter-spacing: 0.28px;
 }
 .hero-section {
   background-color: #212121;
+  margin: 0 auto;
+  padding: 15px 20px;
 }
 .hero {
+ 
   padding-top: 200px;
 padding-bottom: 200px;
   color: white;
   text-align: center;
 font-family: Roboto;
 font-size: 44px;
-
+margin-top: 200px;
+margin-bottom: 280px;
+margin-left: 452px;
+margin-right: 452px;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .hero-btn {
+ 
  width: 216px;
  height: 50px;
  margin-left: 692px;
 margin-right: 692px;
-margin-top: 25px;
+margin-top: 350px;
  margin-bottom: 200px;
   color: white;
  background-color: #2196F3;
   text-align: center;
 font-family: Roboto;
 font-size: 16px;
-
+justify-content: center;
 letter-spacing: 0.96px;
 }
 .advantages-list {
@@ -85,8 +110,16 @@ letter-spacing: 0.42px;
 }
 .work-list {
   display: flex;
-justify-content: center;
+ justify-content: center;
+ gap: 30px;
  
+}
+
+.work-item-img {
+  width: 370px;
+ height: 294px;
+
+justify-content: center;
 }
 
 .work-title {
@@ -105,12 +138,11 @@ padding-bottom: 200px;
   text-align: center;
 font-family: Roboto;
 font-size: 16px;
-
+display: flex;
+justify-content: space-between;
 letter-spacing: 0.48px;
 }
-.workers-title {
- justify-content: center;
-}
+
 .advantages-list-title {
  color: #212121;
  text-transform: lowercase;
@@ -131,6 +163,28 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
+}
+.workers {
+  display: flex;
+  justify-content: center;
+}
+.worker-foto {
+  width: 270px;
+  height: 260px;
+  gap: 30px;
+  flex-shrink: 0;
+}
+.workers-title {
+  color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+  justify-content: center;
 }
 .footer{
   background-color: #212121;
